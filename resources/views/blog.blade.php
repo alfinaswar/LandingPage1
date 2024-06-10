@@ -10,8 +10,8 @@
 
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-    
-   
+
+
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/css/slicknav.css">
@@ -27,8 +27,8 @@
 </head>
 
 <body>
-    
-  
+
+
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
@@ -42,40 +42,40 @@
 
 
     <header>
-    
+
        <div class="header-area header-transparrent ">
             <div class="main-header header-sticky">
                 <div class="container">
                     <div class="row align-items-center">
-                            
+
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="{{route('home')}}"><img src="assets/img/logo/logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-8 col-md-8">
-                                
+
                             <div class="main-menu f-right d-none d-lg-block">
-                                <nav> 
-                                    <ul id="navigation">    
-                                        <li><a href="index.html"> Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                           <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="blog.html">Blog</a>
-                                            
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="{{route('home')}}"> Home</a></li>
+                                        <li><a href="{{route('about')}}">About Us</a></li>
+                                           <li><a href="{{route('pricing')}}">Pricing</a></li>
+                                        <li><a href="{{route('contact')}}">Contact</a></li>
+                                        <li><a href="{{route('blog')}}">Blog</a>
+
                                         </li>
-                                      
+
                                     </ul>
                                 </nav>
                             </div>
-                        </div>             
+                        </div>
                         <div class="col-xl-2 col-lg-2 col-md-3">
                             <div class="header-right-btn f-right d-none d-lg-block">
                                 <a href="#" class="btn header-btn">Contact Us</a>
                             </div>
                         </div>
-                             
+
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
@@ -83,12 +83,12 @@
                 </div>
             </div>
        </div>
-          
+
     </header>
 
     <div class="services-area">
         <div class="container">
-        
+
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-tittle text-center mb-80">
@@ -114,7 +114,7 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
+                                <a class="d-inline-block" href="single-{{route('blog')}}">
                                     <h2>Google inks pact for new 35-storey office</h2>
                                 </a>
                                 <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -136,7 +136,7 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
+                                <a class="d-inline-block" href="single-{{route('blog')}}">
                                     <h2>Google inks pact for new 35-storey office</h2>
                                 </a>
                                 <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -158,7 +158,7 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
+                                <a class="d-inline-block" href="single-{{route('blog')}}">
                                     <h2>Google inks pact for new 35-storey office</h2>
                                 </a>
                                 <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -180,7 +180,7 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
+                                <a class="d-inline-block" href="single-{{route('blog')}}">
                                     <h2>Google inks pact for new 35-storey office</h2>
                                 </a>
                                 <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -202,7 +202,7 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
+                                <a class="d-inline-block" href="single-{{route('blog')}}">
                                     <h2>Google inks pact for new 35-storey office</h2>
                                 </a>
                                 <p>That dominion stars lights dominion divide years for fourth have don't stars is that
@@ -302,7 +302,7 @@
                             <div class="media post_item">
                                 <img src="assets/img/post/post_1.png" alt="post">
                                 <div class="media-body">
-                                    <a href="single-blog.html">
+                                    <a href="single-{{route('blog')}}">
                                         <h3>From life was you fish...</h3>
                                     </a>
                                     <p>January 12, 2019</p>
@@ -311,7 +311,7 @@
                             <div class="media post_item">
                                 <img src="assets/img/post/post_2.png" alt="post">
                                 <div class="media-body">
-                                    <a href="single-blog.html">
+                                    <a href="single-{{route('blog')}}">
                                         <h3>The Amazing Hubble</h3>
                                     </a>
                                     <p>02 Hours ago</p>
@@ -320,7 +320,7 @@
                             <div class="media post_item">
                                 <img src="assets/img/post/post_3.png" alt="post">
                                 <div class="media-body">
-                                    <a href="single-blog.html">
+                                    <a href="single-{{route('blog')}}">
                                         <h3>Astronomy Or Astrology</h3>
                                     </a>
                                     <p>03 Hours ago</p>
@@ -329,7 +329,7 @@
                             <div class="media post_item">
                                 <img src="assets/img/post/post_4.png" alt="post">
                                 <div class="media-body">
-                                    <a href="single-blog.html">
+                                    <a href="single-{{route('blog')}}">
                                         <h3>Asteroids telescope</h3>
                                     </a>
                                     <p>01 Hours ago</p>
@@ -432,28 +432,28 @@
                       <div class="col-lg-3 col-md-4 col-sm-8">
                          <div class="single-footer-caption mb-50">
                            <div class="single-footer-caption mb-30">
-       
+
                                <div class="footer-logo">
-                                   <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                   <a href="{{route('home')}}"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                                </div>
                                <p style="color: white;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                                <div class="footer-tittle">
-                                  
+
                                </div>
                                <div class="footer-social">
                                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                                   <a href="#"><i class="fab fa-twitter"></i></a>
                                   <a href="#"><i class="fas fa-globe"></i></a>
-                                  
+
                               </div>
                            </div>
                          </div>
                       </div>
                       <div class="col-lg-2 col-md-4 col-sm-5">
-                         
+
                       </div>
                       <div class="col-lg-2 col-md-4 col-sm-7">
-                         
+
                       </div>
                       <div class="col-lg-3 col-md-4 col-sm-5">
                           <div class="single-footer-caption mb-50">
@@ -487,13 +487,13 @@
               </div>
           </div>
         </div>
-  
+
      </footer>
-   
+
 
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-		
-	
+
+
 		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
         <script src="./assets/js/popper.min.js"></script>
         <script src="./assets/js/bootstrap.min.js"></script>

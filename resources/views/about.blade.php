@@ -10,7 +10,7 @@
         <link rel="manifest" href="site.webmanifest">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-		 
+
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
             <link rel="stylesheet" href="assets/css/flaticon.css">
@@ -23,12 +23,12 @@
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/responsive.css">
-           
+
    </head>
 
    <body>
-       
-  
+
+
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
@@ -39,42 +39,42 @@
             </div>
         </div>
     </div>
-  
+
     <header>
-    
+
        <div class="header-area header-transparrent ">
             <div class="main-header header-sticky">
                 <div class="container">
                     <div class="row align-items-center">
-                            
+
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="{{route('home')}}"><img src="assets/img/logo/logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-8 col-md-8">
-                                
+
                             <div class="main-menu f-right d-none d-lg-block">
-                                <nav> 
-                                    <ul id="navigation">    
-                                        <li><a href="index.html"> Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                           <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="blog.html">Blog</a>
-                                           
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="{{route('home')}}"> Home</a></li>
+                                        <li><a href="{{route('about')}}">About Us</a></li>
+                                           <li><a href="{{route('pricing')}}">Pricing</a></li>
+                                        <li><a href="{{route('contact')}}">Contact</a></li>
+                                        <li><a href="{{route('blog')}}">Blog</a>
+
                                         </li>
-                                      
+
                                     </ul>
                                 </nav>
                             </div>
-                        </div>             
+                        </div>
                         <div class="col-xl-2 col-lg-2 col-md-3">
                             <div class="header-right-btn f-right d-none d-lg-block">
                                 <a href="#" class="btn header-btn">Contact Us</a>
                             </div>
                         </div>
-                             
+
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
@@ -82,10 +82,10 @@
                 </div>
             </div>
        </div>
-          
+
     </header>
     <main>
-        
+
         <div class="slider-area">
             <div class="slider-active">
                 <div class="single-slider slider-height d-flex align-items-center">
@@ -100,13 +100,13 @@
                                 <div class="hero__caption hero__caption2">
                                     <h2 data-animation="fadeInRight" data-delay=".4s">Learn as if you will live forever,  live like you will die tomorrow.</h2>
                                     <p data-animation="fadeInRight" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
-                                    
+
                                     <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Contact Us</a>
+                                        <a href="#" class="btn hero-btn">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -115,25 +115,25 @@
                         <div class="row d-flex align-items-center">
                             <div class="col-lg-5 d-none d-xl-block">
                                 <div class="hero__img hero__img2 " data-animation="fadeInLeft" data-delay="1s">
-                                    <img src="assets/img/hero/about_hero.png" alt="">
+                                    <img src="assets/img/hero/about1.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-7 col-md-9 ">
                                 <div class="hero__caption hero__caption2">
                                     <h1 data-animation="fadeInRight" data-delay=".4s">We Collect<br> High Quality Leads</h1>
                                     <p data-animation="fadeInRight" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
-                                    
+
                                     <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Contact Us</a>
+                                        <a href="#" class="btn hero-btn">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="about-shape">
                 <div class="shape-left">
                     <img src="assets/img/hero/about_shape1.png" alt="">
@@ -155,7 +155,7 @@
                     <div class="col-lg-12 col-md-12">
                         <div class="single-generating d-flex mb-30">
                             <div class="ed-element ed-image text-with-image-image wv-overflow_hidden" id="ed-245506203">
-                                <img src="assets/img/about/success.png" alt="" class="" style="object-fit: cover;" data-src="/images/1020/5916572/about-page-image-1.png" data-srcset="/images/576/5916572/about-page-image-1.png 576w, /images/976/5916572/about-page-image-1.png 976w, /images/1020/5916572/about-page-image-1.png 1020w">
+                                <img src="assets/img/about/1.png" alt="" class="" style="object-fit: cover;" data-src="/images/1020/5916572/about-page-image-1.png" data-srcset="/images/576/5916572/about-page-image-1.png 576w, /images/976/5916572/about-page-image-1.png 976w, /images/1020/5916572/about-page-image-1.png 1020w">
                             </div>
                             <div class="generating-cap">
                                 <h2>Our mission is <span class="color-primary">success</span><br>Keep going <span class="color-primary">forward.</span></h2>
@@ -171,17 +171,17 @@
                                 <p>Quia sed quod fuga tempora. Officiis voluptas asperiores numquam. Velit occaecati et et blanditiis ab placeat qui. Caecati et et blanditiis ab placeat qui.</p>
                             </div>
                             <div class="ed-element ed-image text-with-image-image wv-overflow_hidden" id="ed-245506203">
-                                <img src="assets/img/about/success.png" alt="" class="" style="object-fit: cover;" data-src="/images/1020/5916572/about-page-image-1.png" data-srcset="/images/576/5916572/about-page-image-1.png 576w, /images/976/5916572/about-page-image-1.png 976w, /images/1020/5916572/about-page-image-1.png 1020w">
+                                <img src="assets/img/about/2.png" alt="" class="" style="object-fit: cover;" data-src="/images/1020/5916572/about-page-image-1.png" data-srcset="/images/576/5916572/about-page-image-1.png 576w, /images/976/5916572/about-page-image-1.png 976w, /images/1020/5916572/about-page-image-1.png 1020w">
                             </div>
                         </div>
-                  
+
                 </div>
             </div>
         </div>
-        
+
         <div class="visit-area fix visite-padding">
             <div class="container">
-            
+
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-6 pr-0">
                         <div class="section-tittle text-center">
@@ -202,7 +202,7 @@
                                 <p>Email Marketing</p>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                      <div class="col-lg-3 col-md-4">
                         <div class="single-visited mb-30">
                             <div class="visited-img">
@@ -224,7 +224,7 @@
                                 <p>Email Marketing</p>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="single-visited mb-30">
                             <div class="visited-img">
@@ -239,8 +239,8 @@
                 </div>
             </div>
         </div>
-        
-           
+
+
 
         <div class="have-project">
             <div class="container">
@@ -259,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -273,28 +273,28 @@
                       <div class="col-lg-3 col-md-4 col-sm-8">
                          <div class="single-footer-caption mb-50">
                            <div class="single-footer-caption mb-30">
-       
+
                                <div class="footer-logo">
-                                   <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                   <a href="{{route('home')}}"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                                </div>
                                <p style="color: white;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                                <div class="footer-tittle">
-                                  
+
                                </div>
                                <div class="footer-social">
                                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                                   <a href="#"><i class="fab fa-twitter"></i></a>
                                   <a href="#"><i class="fas fa-globe"></i></a>
-                                  
+
                               </div>
                            </div>
                          </div>
                       </div>
                       <div class="col-lg-2 col-md-4 col-sm-5">
-                         
+
                       </div>
                       <div class="col-lg-2 col-md-4 col-sm-7">
-                         
+
                       </div>
                       <div class="col-lg-3 col-md-4 col-sm-5">
                           <div class="single-footer-caption mb-50">
@@ -328,9 +328,9 @@
               </div>
           </div>
         </div>
-  
+
      </footer>
-   
+
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
         <script src="./assets/js/popper.min.js"></script>
@@ -352,6 +352,6 @@
         <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
-        
+
     </body>
 </html>
